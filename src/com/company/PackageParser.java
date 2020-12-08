@@ -42,7 +42,6 @@ public class PackageParser {
         StringBuffer buffer = new StringBuffer(str);
         buffer.delete(str.length() - 3, str.length());
         downloadFile(str, artifactId + "-" + version + ".jar");
-
     }
 
     public void showDependencies() throws Exception {
